@@ -1,6 +1,6 @@
-# Unreal Engine 5 Web View Example
+# Example UE AvatarCreator Integration
 
-This repository contains an Unreal Engine 5 sample project that uses the Unreal Engine Web Browser module (and Web Browser Widget) to embed the Ready Player Me character creator inside an application to create a seamless integration.
+This repository contains an Unreal Engine 5 sample project that uses the Unreal Engine Web Browser module (and Web Browser Widget) to embed the Ready Player Me AvatarCreator inside an application to create a seamless integration.
 
 ![img-web-browser-in-game](https://user-images.githubusercontent.com/7085672/163359540-e51de977-89ac-440b-8723-b9217681b00d.png)
 
@@ -11,7 +11,7 @@ This repository contains an Unreal Engine 5 sample project that uses the Unreal 
 
 # Web Browser Demo Map
 
-The WebBrowserDemo map located in the `Content` folder is a good starting point for anybody wanting to use the Web Browser module to seamlessly integrate our RPM web platform into you game or application.  The logic for this is rather simple, if you open up the Level Blueprint you will see this network of nodes.
+The WebBrowserDemo map located in the `Content` folder is a good starting point for anybody wanting to use the Web Browser module to seamlessly integrate our RPM AvatarCreator into you game or application.  The logic for this is rather simple, if you open up the Level Blueprint you will see this network of nodes.
 
 ![img-browser-bp](https://user-images.githubusercontent.com/7085672/163360368-c277f209-0cd5-4dc5-a9e4-df9bc1fec58b.png)
 
@@ -25,17 +25,17 @@ Next we bind the RPM Browser widget's Avatar Generated Event to run the Load New
 
 # Browser Widget Blueprint
 
-To display and interact with the a web browser inside unreal you need to use a UI Widget. For this demo we created the RPM_BrowserWidget located in `Content > Blueprints`. If you open up the widget you will in the Hierarchy panel that it consists of a **CanvasPanel** and a **RPM Web Browser widget** inside of it. 
+To display and interact with the a web browser inside unreal you need to use a UI Widget. For this demo we created the RPM_BrowserWidget located in `Content > Blueprints`. If you open up the widget you will in the Hierarchy panel that it consists of a **CanvasPanel** and a **RPM Web Browser widget** inside of it.
 
 ![img-widget-hierarchy](https://user-images.githubusercontent.com/7085672/163364100-75cc563b-3e78-418f-ab1a-47b79cfabf45.png)
 
-It is set up this way so that the RPM Browser Widgets position, padding and anchor settings can be easily adjusted relative to the Canvas Panel. If you select the `RPM_Browser` object in the hierachy you will most likely need to update the `InitialUrl` setting. This is the Url that will be loaded when this Widget is created/added to the scene. 
+It is set up this way so that the RPM Browser Widgets position, padding and anchor settings can be easily adjusted relative to the Canvas Panel. If you select the `RPM_Browser` object in the hierachy you will most likely need to update the `InitialUrl` setting. This is the Url that will be loaded when this Widget is created/added to the scene.
 
 ![img-initial-url](https://user-images.githubusercontent.com/7085672/163363941-bdf5ef85-b3b2-4069-ae23-733282017894.png)
 
-By default we set it to demo.readyplayer.me/avatar however as the name suggests this is only recommended for demo's. we highly recommend you become a Ready Player Me partner and get your own partner space. For example "yourprojectname.readyplayer.me". Once you have your own partner space setup you update this Initial Url accordingly. 
+By default we set it to demo.readyplayer.me/avatar however as the name suggests this is only recommended for demo's. we highly recommend you become a Ready Player Me partner and get your own partner space. For example "yourprojectname.readyplayer.me". Once you have your own partner space setup you update this Initial Url accordingly.
 
-Next open up the Graph for the Ready Player Me Browser Widget and you will see this network of nodes. 
+Next open up the Graph for the Ready Player Me Browser Widget and you will see this network of nodes.
 
 ![img-browser-widget-bp](https://user-images.githubusercontent.com/7085672/163359928-7e915cc0-6076-4195-91f8-cda06d7120bb.png)
 
@@ -107,7 +107,7 @@ this->ExecuteJavascript(UReadyPlayerMeWebBrowser::javascriptSnippet);
 ```
 
 ## Dependencies
-- Ready Player Me Unreal SDK 
+- Ready Player Me Unreal SDK
 - glTFRuntime (Third party plugin)
 
 ## Links
@@ -118,4 +118,3 @@ this->ExecuteJavascript(UReadyPlayerMeWebBrowser::javascriptSnippet);
 
 **glTFRuntime**
 - [Documentation](https://github.com/rdeioris/glTFRuntime-docs/blob/master/README.md)
-
