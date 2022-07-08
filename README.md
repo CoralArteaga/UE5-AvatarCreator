@@ -1,6 +1,6 @@
-# Example UE AvatarCreator Integration
+# UE Avatar Creator Integration Example
 
-This repository contains an Unreal Engine 5 sample project that uses the Unreal Engine Web Browser module (and Web Browser Widget) to embed the Ready Player Me AvatarCreator inside an application to create a seamless integration.
+This repository contains an Unreal Engine 5 sample project that uses the Unreal Engine Web Browser module (and Web Browser Widget) to embed the Ready Player Me Avatar Creator inside an application to create a seamless integration.
 
 ![img-web-browser-in-game](https://user-images.githubusercontent.com/7085672/163359540-e51de977-89ac-440b-8723-b9217681b00d.png)
 
@@ -11,7 +11,7 @@ This repository contains an Unreal Engine 5 sample project that uses the Unreal 
 
 # Web Browser Demo Map
 
-The WebBrowserDemo map located in the `Content` folder is a good starting point for anybody wanting to use the Web Browser module to seamlessly integrate our RPM AvatarCreator into you game or application.  The logic for this is rather simple, if you open up the Level Blueprint you will see this network of nodes.
+The WebBrowserDemo map located in the `Content` folder is a good starting point for anybody wanting to use the Web Browser module to seamlessly integrate our RPM Avatar Creator into you game or application.  The logic for this is rather simple, if you open up the Level Blueprint you will see this network of nodes.
 
 ![img-browser-bp](https://user-images.githubusercontent.com/7085672/163360368-c277f209-0cd5-4dc5-a9e4-df9bc1fec58b.png)
 
