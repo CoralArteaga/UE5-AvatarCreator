@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright © 2021++ Ready Player Me
 
 #pragma once
 
@@ -8,7 +8,7 @@
 
 DECLARE_DYNAMIC_DELEGATE_OneParam(FReadyPlayerWebBrowserResponse, const FString&, AvatarUrl);
 UCLASS()
-class WEBVIEW_UE5_API UWebLink : public UObject
+class UE5_AVATARCREATOR_API UWebLink : public UObject
 {
 	GENERATED_BODY()
 	
