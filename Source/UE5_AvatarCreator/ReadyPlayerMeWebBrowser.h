@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright © 2021++ Ready Player Me
 
 #pragma once
 
@@ -12,7 +12,7 @@
  * 
  */
 UCLASS()
-class WEBVIEW_UE5_API UReadyPlayerMeWebBrowser : public UWebBrowser
+class UE5_AVATARCREATOR_API UReadyPlayerMeWebBrowser : public UWebBrowser
 {
 	GENERATED_BODY()
 

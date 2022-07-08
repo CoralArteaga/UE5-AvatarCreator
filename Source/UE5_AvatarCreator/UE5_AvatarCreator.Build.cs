@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class WebView_UE5 : ModuleRules
+public class UE5_AvatarCreator : ModuleRules
 {
-	public WebView_UE5(ReadOnlyTargetRules Target) : base(Target)
+	public UE5_AvatarCreator(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

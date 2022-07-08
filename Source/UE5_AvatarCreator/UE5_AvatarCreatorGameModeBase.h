@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "WebView_UE5GameModeBase.generated.h"
+#include "UE5_AvatarCreatorGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class WEBVIEW_UE5_API AWebView_UE5GameModeBase : public AGameModeBase
+class UE5_AVATARCREATOR_API AUE5_AvatarCreatorGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
